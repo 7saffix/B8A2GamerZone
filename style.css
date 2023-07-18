@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Space+Mono:wght@400;700&family=Work+Sans:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+/* header section style */
+
+/* nav section  */
+header{
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+/* logo style  */
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo h3{
+    font-size: 45px;
+    font-weight: 700;
+}
+.logo span{
+    color: #FF42A5;
+}
+/* nav list style  */
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav ul li{
+    padding:10px 30px;
+}
+.follow-btn{
+    border: 0;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: rgba(11, 2, 35, 0.10);
+    cursor: pointer;
+}
+.follow-btn .youtube{
+    color: #F61C0D;
+    padding: 5px;
+}
+.follow-btn .tiktok{
+   color: #703243;
+}
+
+
+
+/* Responsive style  */
+@media screen and (max-width: 576px) {
+    header{
+        box-shadow: none;
+    }
+    .navbar,nav ul{
+        flex-direction: column;
+    }
+    nav ul li{
+        padding:20px 30px;
+    }
+}
