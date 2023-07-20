@@ -197,6 +197,8 @@ span small {
     left: 30%;
     display: none;
     color: #FF42A5;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 .card:hover i,
@@ -504,7 +506,7 @@ footer .logo {
     }
 }
 
-@media screen and (min-width: 577px) and (max-width: 1000px) {
+@media screen and (min-width: 577px) and (max-width: 1300px) {
 
     /* nav style  */
     .logo img {
@@ -614,6 +616,8 @@ footer .logo {
 
     /* game btns  */
     .games-btns {
+        width: 80%;
+        display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 10px;
         justify-content: center;
